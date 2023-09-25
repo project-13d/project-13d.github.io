@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 60px;
+    color: #ffa600;
+    margin-top: 8rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 65px;
+    font-family: Cardo;
+    color: grey;
+    margin-top: 5.5rem;
+    margin-left: 4rem;
+    letter-spacing: 10px; 
+}
+
+p {
+    font-size: 25px;
+    color: #ffa600;
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
+
+.phone-input {
+    display: flex;
+    align-items: center;
+    max-width: 530px;
+    margin: 20px auto;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+}
+
+.country-code {
+    flex: 1.6; 
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ffa600;
+    font-size: 25px;
+    outline: none;
+    margin-right: 2rem;
+}
+
+.phone-number {
+    flex: 8; 
+    padding: 10.5px;
+    border: none;
+    border-bottom: 1px solid #ffa600;
+    font-size: 25px;
+    outline: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+#button1 {
+    background-color: #ffa600;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 12px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 25rem;
+    height: 3.5rem;
+}
+
+
+#button1:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    text-align: center;
+    font-size: 23px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    height: 5rem;
+    width: 100%;
+    border-top: 1px solid #cacaca;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.powered-by {
+    color: rgb(189, 189, 189);
+    margin-right: 5px;
+}
+
+.website-name {
+    color: #0056b3;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 500,
+  'GRAD' 200,
+  'opsz' 60
+}
+
+#tick {
+    margin-left: -2rem;
+}
