@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+h1 {
+    font-size: 60px;
+    letter-spacing: 7px;
+    color: #ffa600;
+    margin-top: 8rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 60px;
+    font-family: Cardo;
+    color: #8c8c8c;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    letter-spacing: 5px; 
+}
+
+p {
+    font-size: 25px;
+    color: #8c8c8c;
+    margin-left: 4rem;
+    margin-top: -2rem;
+}
+
+
+
+#button1 {
+    background-color: #ffa600;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 20px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 32rem;
+    height: 3.5rem;
+}
+
+
+#button1:hover {
+    background-color: #0056b3;
+}
+
+.register button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 23px;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    height: 5rem;
+    width: 100%;
+    border-top: 1px solid #ffa600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.powered-by {
+    color: rgb(189, 189, 189);
+    margin-right: 5px;
+}
+
+.website-name {
+    color: #0056b3;
+}
+
+
+/* ---- form ----- */
+.register {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-group {
+    margin-bottom: 55px;
+    display: inline-block;
+    flex-direction: column;
+}
+
+
+label {
+    font-size: 20px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+label[for="no-email"] {
+    display: inline;
+    font-weight: normal;
+    color: #b7b7b7;
+}
+
+#day,
+#month
+{
+    width: calc(18.33% - 5px); 
+    margin-right: 2rem; 
+    height: 2rem;
+}
+
+#year {
+    width: 11.7rem; 
+    height: 2rem;
+}
+
+#name,
+#email {
+    width: 30rem;
+    height: 2rem;
+}
